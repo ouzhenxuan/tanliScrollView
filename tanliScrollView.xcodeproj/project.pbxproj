@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		204331F91C153AB9008EF17C /* cricleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 204331F81C153AB9008EF17C /* cricleView.m */; };
+		208952B91C16E02400E1FEDB /* waterLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 208952B81C16E02400E1FEDB /* waterLayer.m */; };
+		208952BC1C17BECF00E1FEDB /* waterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 208952BB1C17BECF00E1FEDB /* waterView.m */; };
+		20C8DDA41C18188400519099 /* twoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20C8DDA21C18188400519099 /* twoViewController.m */; };
+		20C8DDA51C18188400519099 /* twoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20C8DDA31C18188400519099 /* twoViewController.xib */; };
 		20CA34F41C11741100F9881F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CA34F31C11741100F9881F /* main.m */; };
 		20CA34F71C11741100F9881F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CA34F61C11741100F9881F /* AppDelegate.m */; };
 		20CA34FA1C11741100F9881F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 20CA34F91C11741100F9881F /* ViewController.m */; };
@@ -16,6 +21,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		204331F71C153AB9008EF17C /* cricleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cricleView.h; sourceTree = "<group>"; };
+		204331F81C153AB9008EF17C /* cricleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cricleView.m; sourceTree = "<group>"; };
+		208952B71C16E02400E1FEDB /* waterLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = waterLayer.h; sourceTree = "<group>"; };
+		208952B81C16E02400E1FEDB /* waterLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = waterLayer.m; sourceTree = "<group>"; };
+		208952BA1C17BECF00E1FEDB /* waterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = waterView.h; sourceTree = "<group>"; };
+		208952BB1C17BECF00E1FEDB /* waterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = waterView.m; sourceTree = "<group>"; };
+		20C8DDA11C18188400519099 /* twoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = twoViewController.h; sourceTree = "<group>"; };
+		20C8DDA21C18188400519099 /* twoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = twoViewController.m; sourceTree = "<group>"; };
+		20C8DDA31C18188400519099 /* twoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = twoViewController.xib; sourceTree = "<group>"; };
 		20CA34EF1C11741100F9881F /* tanliScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tanliScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20CA34F31C11741100F9881F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20CA34F51C11741100F9881F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +81,15 @@
 				20CA35001C11741100F9881F /* LaunchScreen.storyboard */,
 				20CA35031C11741100F9881F /* Info.plist */,
 				20CA34F21C11741100F9881F /* Supporting Files */,
+				204331F71C153AB9008EF17C /* cricleView.h */,
+				204331F81C153AB9008EF17C /* cricleView.m */,
+				208952B71C16E02400E1FEDB /* waterLayer.h */,
+				208952B81C16E02400E1FEDB /* waterLayer.m */,
+				208952BA1C17BECF00E1FEDB /* waterView.h */,
+				208952BB1C17BECF00E1FEDB /* waterView.m */,
+				20C8DDA11C18188400519099 /* twoViewController.h */,
+				20C8DDA21C18188400519099 /* twoViewController.m */,
+				20C8DDA31C18188400519099 /* twoViewController.xib */,
 			);
 			path = tanliScrollView;
 			sourceTree = "<group>";
@@ -139,6 +162,7 @@
 				20CA35021C11741100F9881F /* LaunchScreen.storyboard in Resources */,
 				20CA34FF1C11741100F9881F /* Assets.xcassets in Resources */,
 				20CA34FD1C11741100F9881F /* Main.storyboard in Resources */,
+				20C8DDA51C18188400519099 /* twoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,9 +173,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C8DDA41C18188400519099 /* twoViewController.m in Sources */,
+				204331F91C153AB9008EF17C /* cricleView.m in Sources */,
 				20CA34FA1C11741100F9881F /* ViewController.m in Sources */,
 				20CA34F71C11741100F9881F /* AppDelegate.m in Sources */,
 				20CA34F41C11741100F9881F /* main.m in Sources */,
+				208952BC1C17BECF00E1FEDB /* waterView.m in Sources */,
+				208952B91C16E02400E1FEDB /* waterLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +292,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tanliScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ouzhenxuan.tanliScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -275,6 +304,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = tanliScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ouzhenxuan.tanliScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -300,6 +330,7 @@
 				20CA35081C11741100F9881F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
